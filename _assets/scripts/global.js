@@ -13,21 +13,21 @@
 
 (
 	
-	function( $ )
+	function( $, document, undefined )
 	{
+		// Start all javascript inside wrapper to allow $
 		
-		/**
-		 * jQuery onDocument Ready
-		*/
+		
+		// Start on document ready
 		
 		$(document).ready(
 			
 			function()
 			{
-				
+				// Start 
 			}
 			
 		);
 	}
 	
-) ( jQuery );
+) ( jQuery, document );
