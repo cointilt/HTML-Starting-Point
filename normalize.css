@@ -211,7 +211,7 @@ td { vertical-align: top; }
    ========================================================================== */
 
 /* For image replacement */
-.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
 .ir br { display: none; }
 
 /* Hide from both screenreaders and browsers: h5bp.com/u */
@@ -226,11 +226,10 @@ td { vertical-align: top; }
 /* Hide visually and from screenreaders, but maintain layout */
 .invisible { visibility: hidden; }
 
-/* Contain floats: h5bp.com/q */ 
+/* Contain floats: h5bp.com/q */
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
-.clearfix { zoom: 1; }
-
+.clearfix { *zoom: 1; }
 
 /* ==|== print styles =======================================================
    Print styles.
