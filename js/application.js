@@ -23,23 +23,8 @@ if (!(window.console && console.log)) {
  * libraries or scripts are included and are using the dollar sign.
 */
 
-(
+(function ($) {
+    $(document).ready(function () {
 
-	function( $, document, undefined )
-	{
-		// Start all javascript inside wrapper to allow $
-
-
-		// Start on document ready
-
-		$(document).ready(
-
-			function()
-			{
-				// Start
-			}
-
-		);
-	}
-
-) ( jQuery, document );
+    });
+}(jQuery));
