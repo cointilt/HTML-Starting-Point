@@ -13,3 +13,6 @@
 [submodule "vendor/facebox"]
 	path = vendor/facebox
 	url = git://github.com/defunkt/facebox.git
+[submodule "vendor/normalize-css"]
+	path = vendor/normalize-css
+	url = git://github.com/necolas/normalize.css.git
