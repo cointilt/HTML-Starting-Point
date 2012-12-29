@@ -10,3 +10,6 @@
 [submodule "vendor/font-awesome"]
 	path = vendor/font-awesome
 	url = git://github.com/FortAwesome/Font-Awesome.git
+[submodule "vendor/facebox"]
+	path = vendor/facebox
+	url = git://github.com/defunkt/facebox.git
